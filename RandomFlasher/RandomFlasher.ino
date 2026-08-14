@@ -1,15 +1,15 @@
-  const int Gout = 2;
-  const int Rout = 3;
-  const int Bout = 4;
-  const int Yout = 5;
-  int RGBY [] = {Gout, Rout, Bout, Yout};
+  const int Green = 2;
+  const int Red = 3;
+  const int Blue = 4;
+  const int Yellow = 5;
+  int RGBY [] = {Green, Red, Blue, Yellow};
 
 void setup() {
   // put your setup code here, to run once:
-pinMode (Gout, OUTPUT);
-pinMode (Rout, OUTPUT);
-pinMode (Bout, OUTPUT);
-pinMode (Yout, OUTPUT);
+pinMode (Green, OUTPUT);
+pinMode (Red, OUTPUT);
+pinMode (Blue, OUTPUT);
+pinMode (Yellow, OUTPUT);
   randomSeed(analogRead(A0));
 }
 
